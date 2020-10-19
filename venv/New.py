@@ -1,1 +1,2 @@
 print("WITAM")
+print("Drugi")
