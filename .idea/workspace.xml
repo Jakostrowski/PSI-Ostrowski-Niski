@@ -38,8 +38,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="873" />
-    <option name="y" value="56" />
+    <option name="x" value="316" />
+    <option name="y" value="50" />
     <option name="width" value="1300" />
     <option name="height" value="948" />
   </component>
@@ -117,7 +117,7 @@
       <workItem from="1603107557500" duration="1245000" />
       <workItem from="1603108870389" duration="1779000" />
       <workItem from="1603111158879" duration="508000" />
-      <workItem from="1603115727607" duration="509000" />
+      <workItem from="1603115727607" duration="874000" />
     </task>
     <task id="LOCAL-00001" summary="Projekt PSI2020">
       <created>1603109235653</created>
@@ -137,7 +137,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4041000" />
+    <option name="totallyTimeSpent" value="4406000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -149,7 +149,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="30" width="1300" height="948" extended-state="0" />
+    <frame x="316" y="50" width="1300" height="948" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26209676" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
