@@ -8,7 +8,11 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
+<<<<<<< HEAD
 set "VIRTUAL_ENV=E:\pycharm\PSI2020\venv"
+=======
+set "VIRTUAL_ENV=C:\Users\Mateusz\PycharmProjects\PSI2020\venv"
+>>>>>>> ba1fec0d9de15e24108763b44a9da4004867f46a
 
 if not defined PROMPT (
     set "PROMPT=$P$G"

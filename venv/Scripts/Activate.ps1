@@ -27,7 +27,11 @@ function global:deactivate ([switch]$NonDestructive) {
 
 deactivate -nondestructive
 
+<<<<<<< HEAD
 $env:VIRTUAL_ENV="E:\pycharm\PSI2020\venv"
+=======
+$env:VIRTUAL_ENV="C:\Users\Mateusz\PycharmProjects\PSI2020\venv"
+>>>>>>> ba1fec0d9de15e24108763b44a9da4004867f46a
 
 if (! $env:VIRTUAL_ENV_DISABLE_PROMPT) {
     # Set the prompt to include the env name
