@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50d82500-c286-415f-8737-126a8a12a7b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/New.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/New.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -38,8 +38,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="369" />
-    <option name="y" value="41" />
+    <option name="x" value="873" />
+    <option name="y" value="56" />
     <option name="width" value="1300" />
     <option name="height" value="948" />
   </component>
@@ -49,6 +49,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -80,7 +81,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -117,6 +117,7 @@
       <workItem from="1603107557500" duration="1245000" />
       <workItem from="1603108870389" duration="1779000" />
       <workItem from="1603111158879" duration="508000" />
+      <workItem from="1603115727607" duration="509000" />
     </task>
     <task id="LOCAL-00001" summary="Projekt PSI2020">
       <created>1603109235653</created>
@@ -136,7 +137,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3532000" />
+    <option name="totallyTimeSpent" value="4041000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -148,9 +149,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="369" y="41" width="1300" height="948" extended-state="0" />
+    <frame x="5" y="30" width="1300" height="948" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2580645" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26209676" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
