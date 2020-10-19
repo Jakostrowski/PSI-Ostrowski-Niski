@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
+=======
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
+>>>>>>> ba1fec0d9de15e24108763b44a9da4004867f46a
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.7 (PSI2020)" project-jdk-type="Python SDK" />
 </project>
