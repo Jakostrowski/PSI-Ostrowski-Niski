@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="50d82500-c286-415f-8737-126a8a12a7b9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/New.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/New.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/New.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" selection-start-column="6" selection-end-column="6" />
+            <state relative-caret-position="17">
+              <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -117,7 +118,7 @@
       <workItem from="1603107557500" duration="1245000" />
       <workItem from="1603108870389" duration="1779000" />
       <workItem from="1603111158879" duration="508000" />
-      <workItem from="1603115727607" duration="874000" />
+      <workItem from="1603115727607" duration="1137000" />
     </task>
     <task id="LOCAL-00001" summary="Projekt PSI2020">
       <created>1603109235653</created>
@@ -137,7 +138,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4406000" />
+    <option name="totallyTimeSpent" value="4669000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -188,8 +189,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/New.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        <state relative-caret-position="17">
+          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
