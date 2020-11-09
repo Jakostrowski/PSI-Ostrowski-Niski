@@ -75,7 +75,7 @@ def zad_7(tekst):
 
 print(zad_7("haha"))
 
-from file_manager import *
+from wprowadzenie2_filemanager import *
 
 
 plik= FileManager('plik.txt')

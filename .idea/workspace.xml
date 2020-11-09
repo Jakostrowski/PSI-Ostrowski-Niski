@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50d82500-c286-415f-8737-126a8a12a7b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/Cw2_Zad9.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/plik.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Wprowadzenie do pythona 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Wprowadzenie do pythona 2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/file_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/psi1.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/wprowadzenie 1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/wprowadzenie 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/wprowadzenie 2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/Wprowadzenie do pythona 2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="94" column="24" lean-forward="true" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
+            <state relative-caret-position="425">
+              <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -57,6 +56,7 @@
         <option value="$PROJECT_DIR$/venv/Wprowadzenie do pythona 2.py" />
         <option value="$PROJECT_DIR$/venv/Cw2_Zad9.py" />
         <option value="$PROJECT_DIR$/venv/plik.txt" />
+        <option value="$PROJECT_DIR$/venv/wprowadzenie 2.py" />
       </list>
     </option>
   </component>
@@ -77,27 +77,12 @@
         <subPane>
           <expand>
             <path>
-              <item name="PSI2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PSI2020" type="462c0819:PsiDirectoryNode" />
+              <item name="PSI-Ostrowski-Niski" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSI-Ostrowski-Niski" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PSI2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PSI2020" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PSI2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="PSI2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (PSI2020) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="PSI2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (PSI2020) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="PSI-Ostrowski-Niski" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSI-Ostrowski-Niski" type="462c0819:PsiDirectoryNode" />
               <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -172,28 +157,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Wprowadzenie do pythona 1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PSI2020" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Wprowadzenie do pythona 1" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Wprowadzenie do pythona 2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PSI2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -216,12 +179,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="wprowadzenie 1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PSI2020" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/wprowadzenie 1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="wprowadzenie 2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PSI2020" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/wprowadzenie 2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Wprowadzenie do pythona 2" />
+        <item itemvalue="Python.wprowadzenie 1" />
+        <item itemvalue="Python.wprowadzenie 2" />
         <item itemvalue="Python.Cw2_Zad9" />
         <item itemvalue="Python.Wprowadzenie do pythona 1 (1)" />
-        <item itemvalue="Python.Wprowadzenie do pythona 1" />
       </list>
     </recent_temporary>
   </component>
@@ -276,9 +282,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="239" y="43" width="1300" height="783" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28870967" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19402985" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -287,14 +294,16 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39846155" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32786885" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32719395" />
       <window_info anchor="bottom" id="SVN Repositories" order="7" weight="0.32883435" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50080645" side_tool="true" weight="0.32883435" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32786885" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.49919355" visible="true" weight="0.32615384" />
-      <window_info anchor="bottom" id="Python Console" order="13" weight="0.3266564" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32719395" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49919355" weight="0.22968581" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="13" visible="true" weight="0.3261105" />
+      <window_info anchor="right" id="R Graphics" />
+      <window_info anchor="right" id="R Packages" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -319,29 +328,13 @@
     <entry file="file://$PROJECT_DIR$/venv/pyvenv.cfg">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../WdoGk/main.py">
+    <entry file="file://$PROJECT_DIR$/../wdogk/main.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/982511284/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="5066" column="8" selection-start-line="5066" selection-start-column="8" selection-end-line="5066" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Zdalne/5 semestr/WdoGK/Zajecia 4/Praca/main.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Scripts/Wprowadzenie do pythona 2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Wprowadzenie do pythona 1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-end-line="101" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/982511284/builtins.py" />
+    <entry file="file://$USER_HOME$/Desktop/Zdalne/5 semestr/WdoGK/Zajecia 4/Praca/main.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Scripts/Wprowadzenie do pythona 2.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Wprowadzenie do pythona 1" />
     <entry file="file://$PROJECT_DIR$/venv/Wprowadzenie do pythona 1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="71">
@@ -377,10 +370,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/Cw2_Zad9.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/wprowadzenie_2_filemanager.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/wprowadzenie 1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-460" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/wprowadzenie 2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Wprowadzenie do pythona 2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="94" column="24" lean-forward="true" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
+        <state relative-caret-position="425">
+          <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
         </state>
       </provider>
     </entry>
