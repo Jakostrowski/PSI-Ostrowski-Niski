@@ -85,6 +85,18 @@ class UslugaSerializer(serializers.ModelSerializer):
             if i != i.lower() and i!=tekst[0]:
                 raise serializers.ValidationError("Nie uzywaj wielkich znakow poza zaczynającym nazwe")
         return value
+<<<<<<< HEAD
+    def create(self,validated_data):
+        nazwa = validated_data['nazwa']
+        cena_netto = validated_data['cena_netto']
+        usluga_obj = Usluga(
+            nazwa = nazwa,
+            cena_netto = cena_netto
+        )
+        usluga_obj.save()
+        return validated_data
+=======
+>>>>>>> e1207a4b1d513de65d2171ec9a3d61c8761ac25f
 class WizytaSerializer(serializers.ModelSerializer):
     class Meta:
         model = Wizyta
