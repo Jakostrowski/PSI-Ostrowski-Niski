@@ -1,18 +1,11 @@
 from django.shortcuts import render
-<<<<<<< HEAD
 from django.http import HttpResponse,Http404
 from rest_framework import viewsets,generics,status
 from rest_framework.views import APIView
 from .serializers import KlientSerializer,WizytaSerializer,PracownikSerializer,UslugaSerializer
 from .models import Klient,Wizyta,Pracownik,Usluga
 from rest_framework.response import Response
-=======
-from django.http import HttpResponse
-from rest_framework import viewsets
 
-from .serializers import KlientSerializer,WizytaSerializer,PracownikSerializer,UslugaSerializer
-from .models import Klient,Wizyta,Pracownik,Usluga
->>>>>>> e1207a4b1d513de65d2171ec9a3d61c8761ac25f
 # Create your views here.
 
 def default(request):
@@ -28,7 +21,6 @@ class PracownikViewSet(viewsets.ModelViewSet):
     serializer_class = PracownikSerializer
 class UslugaViewSet(viewsets.ModelViewSet):
     queryset = Usluga.objects.all()
-<<<<<<< HEAD
     serializer_class = UslugaSerializer
 
 class KlientList(generics.ListCreateAPIView):
@@ -60,6 +52,3 @@ class UslugaDetail(APIView):
         usluga =self.get_object(pk)
         serializer = UslugaSerializer(usluga)
         return Response(serializer.data)
-=======
-    serializer_class = UslugaSerializer
->>>>>>> e1207a4b1d513de65d2171ec9a3d61c8761ac25f
