@@ -18,8 +18,7 @@ class Pracownik(models.Model):
     class Meta:
         ordering = ('nazwisko',)
     def __str__(self):
-        str = str = "" + self.imie + " " +self.nazwisko + " "
-        return str
+        return self.imie + " " + self.nazwisko
 class Usluga(models.Model):
     nazwa = models.CharField(max_length=100,primary_key=True)
     cena_netto = models.IntegerField(default=15)
