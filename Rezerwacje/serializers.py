@@ -95,6 +95,7 @@ class UslugaSerializer(serializers.ModelSerializer):
         usluga_obj.save()
         return validated_data
 class WizytaSerializer(serializers.ModelSerializer):
+    klient = serializers.SlugRelatedField(queryset=Klient.objects.all(),slug_field='imie')
     class Meta:
         model = Wizyta
         fields = '__all__'
