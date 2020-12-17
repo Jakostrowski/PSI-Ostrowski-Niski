@@ -11,5 +11,7 @@ router.register('klienci',KlientViewSet)
 urlpatterns = [
     path('', include(router.urls)),
     path('',views.ApiRoot.as_view()),
+    path('pracownicy/<int:pk>',views.PracownikDetail.as_view(),name=views.PracownikDetail.name),
+    path('uslugi/<str:pk>',views.UslugaDetail.as_view(),name=views.UslugaDetail.name),
     path('api-auth/',include('rest_framework.urls'))
 ]

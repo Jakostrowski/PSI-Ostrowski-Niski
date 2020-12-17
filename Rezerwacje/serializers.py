@@ -96,6 +96,8 @@ class UslugaSerializer(serializers.ModelSerializer):
         return validated_data
 class WizytaSerializer(serializers.ModelSerializer):
     klient = serializers.SlugRelatedField(queryset=Klient.objects.all(),slug_field='imie')
+    pracownicy = serializers.HyperlinkedRelatedField(many=True,read_only=True,view_name='pracownicy-detail')
+    uslugi = serializers.HyperlinkedRelatedField(many=True,read_only=True,view_name='uslugi-detail')
     class Meta:
         model = Wizyta
         fields = '__all__'

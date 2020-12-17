@@ -30,8 +30,7 @@ class WizytaViewSet(viewsets.ModelViewSet):
     queryset= Wizyta.objects.all()
     serializer_class= WizytaSerializer
     filter_class = WizytaFilter
-    filter_fields = ['klient','data','pracownicy']
-    search_fields = ['klient',]
+    search_fields = ['data',]
     ordering_fields = ['data',]
     
 class PracownikViewSet(viewsets.ModelViewSet):
@@ -40,11 +39,13 @@ class PracownikViewSet(viewsets.ModelViewSet):
     filter_fields = ['nazwisko',]
     search_fields = ['nazwisko',]
     ordering_fields = ['nazwisko',]
-
+class PracownikDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Pracownik.objects.all()
+    serializer_class = PracownikSerializer
+    name = 'pracownicy-detail'
 class UslugaFilter(FilterSet):
     min_price = NumberFilter(field_name='cena_netto',lookup_expr='gte')
     max_price = NumberFilter(field_name='cena_netto',lookup_expr='lte')
-
     class Meta:
         model = Usluga
         fields = ['min_price', 'max_price']
@@ -52,9 +53,11 @@ class UslugaViewSet(viewsets.ModelViewSet):
     queryset = Usluga.objects.all()
     serializer_class = UslugaSerializer
     filter_class = UslugaFilter
-    filter_fields = ['nazwa',]
     search_fields = ['nazwa',]
     ordering_fields = ['nazwa','cena_netto',]
-
+class UslugaDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset= Usluga.objects.all()
+    serializer_class = UslugaSerializer
+    name = 'uslugi-detail'
 class ApiRoot(generics.GenericAPIView):
     name = 'api-root'
