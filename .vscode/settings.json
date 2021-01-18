@@ -1,4 +1,6 @@
 {
     "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "python.linting.pylintPath": "pylint_django",
+    "python.pythonPath": "C:\\Users\\Mateusz\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe"
 }

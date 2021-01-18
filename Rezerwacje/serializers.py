@@ -1,10 +1,12 @@
 from rest_framework import serializers
 from .models import Klient,Pracownik,Usluga,Wizyta
+from django.contrib.auth.models import User
 import datetime
 class KlientSerializer(serializers.ModelSerializer):
+    wlasciciel = serializers.ReadOnlyField(source='wlasciciel.id')
     class Meta:
         model = Klient
-        fields = ['idKlient','imie','nazwisko','nrtel']
+        fields = ['idKlient','imie','nazwisko','nrtel','wlasciciel']
     def validate_imie(self,value):
         tekst = value.split(' ')
         for i in tekst:
@@ -95,9 +97,10 @@ class UslugaSerializer(serializers.ModelSerializer):
         usluga_obj.save()
         return validated_data
 class WizytaSerializer(serializers.ModelSerializer):
-    klient = serializers.SlugRelatedField(queryset=Klient.objects.all(),slug_field='imie')
-    pracownicy = serializers.HyperlinkedRelatedField(many=True,read_only=True,view_name='pracownicy-detail')
-    uslugi = serializers.HyperlinkedRelatedField(many=True,read_only=True,view_name='uslugi-detail')
+    wlasciciel = serializers.ReadOnlyField(source='wlasciciel.id')
+    klient = serializers.SlugRelatedField(queryset=Klient.objects.all(),slug_field='idKlient')
+    pracownicy = serializers.HyperlinkedRelatedField(many=True,queryset=Pracownik.objects.all(),view_name='pracownicy-detail')
+    uslugi = serializers.HyperlinkedRelatedField(many=True,queryset=Usluga.objects.all(),view_name='uslugi-detail')
     class Meta:
         model = Wizyta
         fields = '__all__'
@@ -111,3 +114,18 @@ class WizytaSerializer(serializers.ModelSerializer):
         if value.hour<8 or value.hour>15:
             raise serializers.ValidationError("Godziny pracy: 8-16")
         return value
+
+class UserKlientSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        fields = ['imie','nazwisko']
+
+class UserWizytaSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        fields = ['pracownicy','uslugi','klient']
+
+class UserSerializer(serializers.HyperlinkedModelSerializer):
+    klienci = UserKlientSerializer(many=True,read_only=True)
+    wizyty = UserWizytaSerializer(many=True,read_only=True)
+    class Meta:
+        model = User
+        fields =['pk','username','klienci','wizyty']
